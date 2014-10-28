@@ -1,12 +1,22 @@
-h1 {color:red;
+html, body{
+    height:100%;
+}
+
+main {
+    background-image: url(Images/fesse.jpg);
+    height: 100%;
+}
+
+h1 {color:white;
     text-align: center;
-    font-family:sans-serif;}
-    
-h2 {text-align: center;
-    font-family:sans-serif;}
+    font-family:avenir next;
+}
 
-h4 {text-align: center;
-    font-family:sans-serif;}
 
-p{text-align: center;
-    font-family:sans-serif;}
+.{ 
+			width:150px;
+			height:150px;
+			margin:5px;
+			float:left;
+			border-radius:10px;
+			}

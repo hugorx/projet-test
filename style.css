@@ -13,10 +13,10 @@ h1 {color:white;
 }
 
 
-.{ 
+.bloc{ 
 			width:150px;
 			height:150px;
-			margin:5px;
 			float:left;
-			border-radius:10px;
+			border-radius:100px;
+            background-color: white;
 			}

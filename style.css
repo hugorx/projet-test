@@ -1,22 +1,80 @@
+*{
+ margin: 0px auto;  
+ padding: 0px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 html, body{
     height:100%;
+    background-color:#FCF9EE;
 }
 
-main {
-    background-image: url(Images/fesse.jpg);
-    height: 100%;
-}
-
-h1 {color:white;
-    text-align: center;
-    font-family:avenir next;
+.bloc-center {
+            margin:auto;
+            position:relative;
+            top:50%;
+            transform:translateY(-40%)
 }
 
 
-.bloc{ 
-			width:150px;
-			height:150px;
-			float:left;
-			border-radius:100px;
-            background-color: white;
-			}
+.bloc-accueil { 
+            background-image:url(images/accueil-site.png);
+            width:656px;
+            height:517px;
+        
+}
+
+
+.bloc-accueil-home {
+    position: absolute;
+    top:-115px;
+    left:70px;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-out;
+    
+
+}
+ .bloc-accueil-home:hover {
+    -webkit-transform: translate(360em,0);
+    -moz-transform: translate(360em,0);
+    -o-transform: translate(360em,0);
+    -ms-transform: translate(360em,0);
+    transform:rotate(360deg);
+  }
+
+.bloc-accueil-projects {
+
+        position:absolute;
+        top:120px;
+        right:-64px;
+
+}
+
+.bloc-accueil-contact {
+
+        position:absolute;
+        bottom:73px;
+        right:-60px;
+}
+
+
+.bloc-accueil-about {
+
+        position:absolute;
+        bottom:0;
+        left:255px;
+        
+}
+
+.bloc-accueil-about {
+
+        position:absolute;
+        bottom:0;
+        left:255px;
+        
+}
+

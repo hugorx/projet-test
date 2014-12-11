@@ -78,3 +78,51 @@ html, body{
         
 }
 
+
+
+
+.bloc-project {
+
+            background-image:url(images/page-projet.png);
+            width:695px;
+            height:604px;
+}
+
+.bloc-project-bouton-droit {
+
+            position:absolute;
+            bottom:100px;
+            left:542px;
+}
+
+.bloc-project-bouton-gauche {
+
+            position:absolute;
+            bottom:100px;
+            left:497px;
+}
+
+.bloc-project-bouton-home {
+            
+            position:absolute;
+            bottom:133px;
+            left:694px;
+            
+    }
+
+.bloc-project-bouton-about {
+
+            position:absolute;
+            bottom:106px;
+            left:694px;
+}
+
+.bloc-project-bouton-contact {
+
+            position:absolute;
+            bottom:80px;
+            left:694px;
+}
+
+
+

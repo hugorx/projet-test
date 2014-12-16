@@ -31,10 +31,7 @@ html, body{
     position: absolute;
     top:-115px;
     left:70px;
-    -webkit-transition: 1s ease-in-out;
-    -moz-transition:1s ease-in-out;
-    -o-transition: 1s ease-in-out;
-    transition: 1s ease-out;
+   
     
 
 }
@@ -44,6 +41,11 @@ html, body{
     -o-transform: translate(360em,0);
     -ms-transform: translate(360em,0);
     transform:rotate(360deg);
+     
+     -webkit-transition: 1s ease-in-out;
+    -moz-transition:1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-out;
   }
 
 .bloc-accueil-projects {
@@ -54,6 +56,12 @@ html, body{
 
 }
 
+.bloc-accueil-projects:hover {
+
+        transform:scale(1.1);
+
+}
+
 .bloc-accueil-contact {
 
         position:absolute;
@@ -61,6 +69,12 @@ html, body{
         right:-60px;
 }
 
+.bloc-accueil-contact:hover {
+
+        transform:scale(1.1);
+
+}
+
 
 .bloc-accueil-about {
 
@@ -70,14 +84,11 @@ html, body{
         
 }
 
-.bloc-accueil-about {
+.bloc-accueil-about:hover {
 
-        position:absolute;
-        bottom:0;
-        left:255px;
-        
+        transform:scale(1.1);
+
 }
-
 
 
 
@@ -91,14 +102,14 @@ html, body{
 .bloc-project-bouton-droit {
 
             position:absolute;
-            bottom:100px;
+            bottom:99px;
             left:542px;
 }
 
 .bloc-project-bouton-gauche {
 
             position:absolute;
-            bottom:100px;
+            bottom:99px;
             left:497px;
 }
 
@@ -123,6 +134,68 @@ html, body{
             bottom:80px;
             left:694px;
 }
+
+.gallery {
+        margin:auto;
+        width:500px;
+        height:250px;
+
+}
+
+.gallery img {
+
+        width:100%;
+        height:100%;
+}
+
+
+.bloc-contact-center {
+    
+    margin:auto;
+            position:relative;
+            top:39%;
+            transform:translateY(-40%)
+
+
+}
+
+.bloc-contact {
+
+        background-image: url(images/page-contact.png);
+        width:867px;
+        height:598px;
+        
+}
+
+.bloc-contact-facebook {
+
+        position:absolute;
+        top:182px;
+        left:308px;
+
+}
+
+.bloc-feuille-project {
+
+        position:absolute;
+        top:55px;
+        left:160px;
+}
+
+.bloc-feuille-about {
+
+        position:absolute;
+        top:80px;
+        left:140px;
+}
+
+.bloc-feuille-home {
+
+        position:absolute;
+        top:120px;
+        left:180px;
+}
+
 
 
 
